@@ -9,7 +9,7 @@ let display = document.getElementById("display");
     }
 
     function checkCode() {
-      if (display.value === "123456") {
+      if (display.value === "281224") {
         window.location.href = "secret.html"; // Замените ссылку
       } else {
         clearDisplay();
